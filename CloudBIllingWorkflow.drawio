@@ -10,13 +10,46 @@
         <mxCell id="6ETel4mcx1zIXjCM35hC-2" value="Master Data Setup" style="swimlane;html=1;startSize=20;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-1">
           <mxGeometry y="20" width="120" height="450" as="geometry" />
         </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-24" value="Organization Setup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-2">
+          <mxGeometry x="15" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-25" value="Billing Partner Setup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-2">
+          <mxGeometry x="15" y="190" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-29" value="VM Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-2">
+          <mxGeometry x="15" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="6ETel4mcx1zIXjCM35hC-3" value="Bill Upload" style="swimlane;html=1;startSize=20;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-1">
           <mxGeometry x="120" y="20" width="120" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6ETel4mcx1zIXjCM35hC-3" source="6ETel4mcx1zIXjCM35hC-31" target="6ETel4mcx1zIXjCM35hC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-31" value="Step1&lt;br&gt;Upload 3 Files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-3">
+          <mxGeometry x="20" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6ETel4mcx1zIXjCM35hC-3" source="6ETel4mcx1zIXjCM35hC-32" target="6ETel4mcx1zIXjCM35hC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-32" value="Step2&lt;br&gt;Check for new meta application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-3">
+          <mxGeometry x="15" y="190" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-33" value="Step3&lt;br&gt;Calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-3">
+          <mxGeometry x="15" y="373" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6ETel4mcx1zIXjCM35hC-3" source="6ETel4mcx1zIXjCM35hC-34" target="6ETel4mcx1zIXjCM35hC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-34" value="Proceed or Not" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-3">
+          <mxGeometry x="15" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6ETel4mcx1zIXjCM35hC-4" value="Reporting" style="swimlane;html=1;startSize=20;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-1">
           <mxGeometry x="240" y="20" width="120" height="450" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ETel4mcx1zIXjCM35hC-1" source="6ETel4mcx1zIXjCM35hC-34" target="6ETel4mcx1zIXjCM35hC-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
