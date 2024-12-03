@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6ETel4mcx1zIXjCM35hC-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="110" width="360" height="470" as="geometry" />
+          <mxGeometry x="240" y="110" width="480" height="470" as="geometry" />
         </mxCell>
         <mxCell id="6ETel4mcx1zIXjCM35hC-2" value="Master Data Setup" style="swimlane;html=1;startSize=20;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-1">
           <mxGeometry y="20" width="120" height="450" as="geometry" />
@@ -50,6 +50,20 @@
         </mxCell>
         <mxCell id="6ETel4mcx1zIXjCM35hC-39" value="Department wise Billing Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-4">
           <mxGeometry x="15" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-40" value="Dashboard" style="swimlane;html=1;startSize=20;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-1">
+          <mxGeometry x="360" y="20" width="120" height="450" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-41" value="Resource Usages Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-40">
+          <mxGeometry x="15" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-42" value="Cost wise Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-40">
+          <mxGeometry x="15" y="190" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6ETel4mcx1zIXjCM35hC-43" value="Billing forecast report&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6ETel4mcx1zIXjCM35hC-40">
+          <mxGeometry x="15" y="310" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6ETel4mcx1zIXjCM35hC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ETel4mcx1zIXjCM35hC-1" source="6ETel4mcx1zIXjCM35hC-34" target="6ETel4mcx1zIXjCM35hC-24">
           <mxGeometry relative="1" as="geometry" />
